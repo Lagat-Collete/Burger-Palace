@@ -1,0 +1,64 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo span{
+  font-weight: 600;
+  font-style: italic;
+  font-size: 25px;
+  font-family: 'Lobster', cursive;
+
+}
+#span{
+color: #FEC134;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.info{
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+.info a{
+  text-decoration: none;
+  color: inherit;
+}
+.two{
+  position: relative;
+    z-index: 1;
+    right: 80px;
+    bottom: 12px;
+    width: 20px;
+    height: 20px;
+    background: #F56C27;
+    border-radius: 50%;
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+}
+.home-link{
+
+    border-bottom: 4px solid #F56C27;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
