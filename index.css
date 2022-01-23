@@ -1,4 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
 
+}
 
 nav{
   display: flex;
@@ -31,7 +35,7 @@ color: #FEC134;
 .two{
   position: relative;
     z-index: 1;
-    right: 80px;
+    right: 12%;
     bottom: 12px;
     width: 20px;
     height: 20px;
@@ -45,21 +49,39 @@ color: #FEC134;
 
     border-bottom: 4px solid #F56C27;
 }
+.A{
+  display: flex;
+}
+.button{
+  border: none;
+  background-color: #F9952D;
+  padding: 15px;
+border-bottom-left-radius: 30%;
+border-top-left-radius: 30%;
+border-top-right-radius: 30%;
+}
+.P{
 
+  font-family: sans-serif;
+}
 h2{
   color: #551312;
 }
-.H1 {
-display: inline-block;
-
+.menu{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0; 
+  
+}
+.img {
+  width: 300px;
+  height: 450px;
 }
 .img1{
   width: 150px;
   height: 350px;
 }
 .H2 {
-  position: relative;
-  left: 200px;
   border: 2px solid gray;
   border-radius: 25px;
   align-items: center;
@@ -68,26 +90,42 @@ display: inline-block;
   text-align: center;
 }
 #H21 {
-  padding-top: 150px;
+  padding-top: 15px;
   position: relative;
-  left: 200px;
-  width: 200PX;
-  height: 300px;
+  left: 0px;
+  width: 180PX;
+  height: 250px;
+}
+hr{ margin: auto;
+  border: none;
+  width: 8%;
+  height: 10px;
+  background-color: #F9952D;
+  
 }
 #H22 {
-  padding-top: 150px;
+  padding-top: 15px;
   position: relative;
-  left: 250px;
+  left: 20px;
 
-  width: 300px;
+  width: 280px;
   height:300px;
 }
 #H23{
-  padding-top: 150px;
+  padding-top: 15px;
   position: relative;
-  left:400px;
-  width: 200px;
-  height: 300px;
+  left:50px;
+  width: 180px;
+  height: 250px;
+}
+.New{
+  background-color: #F56C27;
+  color: white ;
+  transform: rotate(30deg);
+  width: 100px;
+  height: 40px;
+  position: relative;
+  left:  150px;
 }
 .H3 {
 
@@ -103,16 +141,48 @@ display: inline-block;
   justify-content: space-between;
   margin: auto;
   width: 80%;
-
+}
+.H3Adecker{
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 80%;
 }
 .image{
   width: 100px;
   height: 100px;
 }
+.imgA{
+  width: 250px;
+  height: 200px;
+}
+.Decker{
+  font-weight: bolder;
+}
+.dot{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5px;
+}
+#A1{
+  background-color: #F56C27;
+  color:#F56C27;
+  border-radius: 50%;
+}
+#A2{
+  background-color: #C4C4C4;
+  border-radius: 50%;
+  color: #c4c4c4;
+}
+#A3{
+  color: #F9982F; 
+}
+.H1{
+  width: 50%;
+  padding-left: 5%;
+}
 .H4 {
-  position: relative;
-  left: 200px;
-  display: inline-block;
+
   border: 2px solid #E6E6E6;
   border-radius: 25px;
   align-items: center;
@@ -127,14 +197,11 @@ h1.app{
   
 }
 .play{ 
-background-color: #F6B531;
-  width: 230px;
+background-color: #F8C234;
+  width: 250px;
   height: 80px;
 }
 .phone{
-  position: relative;
-  left: 200px;
-  display: inline-block;
   
   border-radius: 25px;
   align-items: center;
@@ -145,6 +212,88 @@ background-color: #F6B531;
 .app{
   background-color: #F6B531;
 }
+.k{
+  display: flex;
+  justify-content: space-evenly;
+}
+.cart {
+  background-color: #E1EBE6;
+  width: 50px;
+  border-radius: 20%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot-b{
+  border: none;
+  background-color: #F9D675;
+  color: #E1EBE6;
+  height: 26px;
+}
+#input{
+  height: 20px;
+  border-right: none;
+}
+
+.footer1{
+  display: flex;
+  justify-content: space-between;
+}
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sec1{
+  background-color: #FEFEFE;
+  padding: 30px 0;
+  background-image: linear-gradient(132deg,#ffffff 50%,#f6b400 0%);
+  background-color: #f6b400;
+}
+.sec2{
+  background-color: #F7FDF6;
+  padding: 30px 0;
+}
+.sec3{
+  background-color: #FEFEFE;
+  padding: 30px 0;
+}
+.sec4{
+  background-color: #FFFFFF; 
+  padding: 30px 0;
+}
+.sec5{
+background-color: #F6B531;
+padding: 30px 0;
+
+}
+.sec6{
+background-color: #F7FDF6;
+padding: 30px 0;
+}
+.sec7{
+  background-color:#FFFFFF;
+  
+ padding: 30px 0;
+}
+.sec{
+  background-color: #F7FDF6;
+
+}
+.h3a{
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .H3A{
+    width: 100%;
+  }
+ 
+}
+
 
 
 
