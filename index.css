@@ -1,8 +1,5 @@
-*{
-  margin: 0;
-  padding: 0;
 
-}
+
 
 nav{
   display: flex;
@@ -211,6 +208,9 @@ background-color: #F8C234;
 }
 .app{
   background-color: #F6B531;
+}
+.ksh{
+  padding: 5px;
 }
 .k{
   display: flex;
