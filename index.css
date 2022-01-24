@@ -100,6 +100,10 @@ hr{ margin: auto;
   background-color: #F9952D;
   
 }
+#truck{
+  color: #EFA92E;
+  width: 100px;
+}
 #H22 {
   padding-top: 15px;
   position: relative;
@@ -215,6 +219,16 @@ background-color: #F8C234;
 .k{
   display: flex;
   justify-content: space-evenly;
+}
+.type{
+  background-color: #E1EBE6;
+  width: 90px;
+  height: 30px;
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  padding: 0px;
+
 }
 .cart {
   background-color: #E1EBE6;
