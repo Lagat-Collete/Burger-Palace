@@ -239,6 +239,7 @@ background-color: #F8C234;
 .footer1{
   display: flex;
   justify-content: space-between;
+  font-size: smaller;
 }
 .foot{
   display: flex;
