@@ -264,6 +264,8 @@ background-color: #F8C234;
 .foot{
   display: flex;
   justify-content: space-between;
+
+  
 }
 
 .sec1{
