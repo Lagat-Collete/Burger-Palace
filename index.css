@@ -67,7 +67,8 @@ h2{
 .menu{
   width: 100%;
   text-align: center;
-  margin-bottom: 0; 
+  margin-bottom: 10px; 
+
   
 }
 .img {
@@ -98,6 +99,7 @@ hr{ margin: auto;
   width: 8%;
   height: 10px;
   background-color: #F9952D;
+  margin-bottom: 60px;
   
 }
 #truck{
