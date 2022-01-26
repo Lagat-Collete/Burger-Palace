@@ -126,7 +126,7 @@ hr{ margin: auto;
   color: white ;
   transform: rotate(30deg);
   width: 100px;
-  height: 40px;
+  height: 30px;
   position: relative;
   left:  150px;
 }
@@ -227,7 +227,7 @@ background-color: #F8C234;
   width: 90px;
   height: 30px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   border: none;
   padding: 0px;
 
