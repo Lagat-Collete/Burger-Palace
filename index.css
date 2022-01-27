@@ -55,9 +55,7 @@ color: #FEC134;
   border: none;
   background-color: #F9952D;
   padding: 15px;
-border-bottom-left-radius: 35%;
-border-top-left-radius: 35%;
-border-top-right-radius: 35%;
+border-radius: 40px 40px 0 40px;
 }
 .P{
 
