@@ -9,7 +9,7 @@ This is Web Application consisting of  of a simple landing web page of a Burger 
 . open the project on live Server.
 . Network.
 ## Known Bugs
--There are no known bugs
+-There are no known bugs.
 ## Technology used
 1. HTML5
 2. CSS
