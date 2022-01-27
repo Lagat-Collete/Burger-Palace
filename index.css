@@ -14,6 +14,7 @@ nav{
   font-family: 'Lobster', cursive;
 
 }
+
 #span{
 color: #FEC134;
 }
@@ -203,15 +204,18 @@ h1.app{
 .play{ 
 background-color: #F8C234;
   width: 250px;
-  height: 80px;
+  height: 160px,
 }
-.phone{
+#phone{
   
   border-radius: 25px;
   align-items: center;
   width: 200px;
   height: 350px;
-  text-align: center;
+}
+.mobile{
+  position: relative;
+  right: 100px;
 }
 .app{
   background-color: #F6B531;
@@ -263,8 +267,8 @@ background-color: #F8C234;
   color: #5A5A5A;
 }
 .foot{
-  display: flex;
-  justify-content: space-between;
+  width: 100px;
+
 
   
 }
