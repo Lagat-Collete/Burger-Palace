@@ -1,16 +1,15 @@
 BURGER-PALACE
-This is Web Application consisting of  of a simple landing web page with name- Burger palace. it has three modules i.e images folder, html file and a css file
+This is Web Application consisting of  of a simple landing web page with name- Burger palace. it has three files i.e images folder, html file and a css file.
 ## By Jepngetich Collete
 ## description
-This is Web Application consisting of  of a simple landing web page with name- Burger palace
+This is Web Application consisting of  of a simple landing web page of a Burger palace restaurant.
 ## SetUp/installation Requirement
-* Net
-* browser on your pc
-* clone the repository
-* open the repo with your code editor
-* open the project on live Server
+. browser on your pc.
+. open the repo with your code editor.
+. open the project on live Server.
+. Network.
 ## Known Bugs
-There are no known bugs
+-There are no known bugs
 ## Technology used
 1. HTML5
 2. CSS
