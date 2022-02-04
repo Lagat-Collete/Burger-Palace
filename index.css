@@ -150,14 +150,29 @@ hr{ margin: auto;
   justify-content: space-between;
   margin: auto;
   width: 80%;
+  
+  
 }
 .image{
   width: 100px;
   height: 100px;
 }
-.imgA{
+.imgA div{
   width: 250px;
   height: 200px;
+  
+
+
+}
+.imgA{
+  padding-right: 100px;
+  display: inline-flex;
+  width: 200px;
+  height: 250px;
+}
+.imgA div img{
+  height: 200px;
+  width: 200px;
 }
 .Decker{
   font-weight: bolder;
@@ -192,6 +207,9 @@ hr{ margin: auto;
   width: 250px;
   height: 350px;
   text-align: center;
+}
+.serv{
+  width: 50px;
 }
 
 
